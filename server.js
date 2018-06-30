@@ -1,11 +1,9 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || '3000';
+const port = process.env.PORT || '8080';
 var tCount = 1;
 
-app.set('port', port);
-
-app.listen(app.port, () => {
+app.listen(port, () => {
   console.log("Quinela Server Express listening on " + port);
 });
 
