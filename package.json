@@ -1,0 +1,28 @@
+{
+  "name": "quinela",
+  "version": "1.0.0",
+  "description": "Servicio para calcular quinelas en la oficina",
+  "main": "server.js",
+  "scripts": {
+    "test": "testing",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htorres09/quinela.git"
+  },
+  "keywords": [
+    "Quinela",
+    "Godinez"
+  ],
+  "author": "Héctor Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htorres09/quinela/issues"
+  },
+  "homepage": "https://github.com/htorres09/quinela#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  }
+}
